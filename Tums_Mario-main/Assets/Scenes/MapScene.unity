@@ -11378,7 +11378,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5798878938970909638, guid: a4cb79fe80a3c3a428ce4625f6ddca27, type: 3}
       propertyPath: m_IsKinematic
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6131814399134212295, guid: a4cb79fe80a3c3a428ce4625f6ddca27, type: 3}
       propertyPath: m_ApplyRootMotion

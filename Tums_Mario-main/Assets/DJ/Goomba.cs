@@ -123,22 +123,19 @@ public class goomba : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("충돌 발생! 부딪힌 상대: " + collision.gameObject.name);
+        
         // 죽은 굼바
         if (isDead) return;
 
         if (collision.gameObject.CompareTag("Mario"))
         {
-            // StompBox가 아닌, 마리오의 몸과 부딪혔다는 의미이므로
-            // 마리오의 Hit() 함수를 호출해서 데미지
-            if (animator.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+            
+            Player playerScript = collision.gameObject.GetComponent<Player>();
+            if (playerScript != null)
             {
-                Player playerScript = collision.gameObject.GetComponent<Player>();
-                if (playerScript != null)
-                {
-                    playerScript.Hit(); // 마리오에게 데미지를 줍니다.
-                }
+                playerScript.Hit(); // 마리오에게 데미지를 줍니다.
             }
+            
         }
     }
 

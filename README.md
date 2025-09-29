@@ -21,14 +21,14 @@ This project is a 3D platformer game developed with Unity, inspired by 'Super Ma
 </details>
 
 <details>
-<summary><strong>초기 발표 버전 (サークル発表バージョン)</strong> - 클릭하여 펼치기</summary>
+<summary><strong> 2024.02 초기 발표 버전 (サークル発表バージョン)</strong> - 클릭하여 펼치기</summary>
 <br>
 <a href="https://www.youtube.com/watch?v=s_k2WrTW6MU">
   <img src="http://img.youtube.com/vi/s_k2WrTW6MU/0.jpg" alt="Initial Version Video">
 </a>
 </details>
 
-> **Note:** GitHub README에서는 `<iframe>` 태그가 지원되지 않아, 클릭 시 YouTube로 이동하는 이미지 링크로 대체했습니다.
+> **Note:** 클릭 시 YouTube로 이동하는 이미지 링크로 대체했습니다.
 
 <br>
 
